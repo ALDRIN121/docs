@@ -292,6 +292,12 @@ python:
     pypi: langchain-runpod
     docs_url: https://docs.runpod.io/overview
   tools:
+  - name: SemanticaKGTool
+    pypi: langchain-semantica
+    docs_url: https://github.com/ALDRIN121/langchain-semantica
+  - name: SemanticaDecisionTool
+    pypi: langchain-semantica
+    docs_url: https://github.com/ALDRIN121/langchain-semantica
   - name: ICTContactToolkit
     pypi: langchain-ictcontact
     docs_url: https://www.ictcontact.com
@@ -1200,6 +1206,9 @@ python:
     pypi: langchain-opsen
     docs_url: https://opsen.dev/docs
   retrievers:
+  - name: SemanticaRetriever
+    pypi: langchain-semantica
+    docs_url: https://github.com/ALDRIN121/langchain-semantica
   - name: StackOverflowSearchRetriever
     pypi: langchain-stackoverflow
     docs_url: https://github.com/urraf/langchain-stackoverflow#readme
@@ -1516,6 +1525,9 @@ python:
     pypi: langchain-polardb-pg
     docs_url: https://github.com/polardb/langchain-polardb-pg
   vectorstores:
+  - name: SemanticaVectorStore
+    pypi: langchain-semantica
+    docs_url: https://github.com/ALDRIN121/langchain-semantica
   - name: OpensolrVectorStore
     pypi: langchain-opensolr
     docs_url: https://opensolr.com/langchain
